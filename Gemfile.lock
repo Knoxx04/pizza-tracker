@@ -173,7 +173,7 @@ DEPENDENCIES
   faker
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
-  sqlite3 (~> 1.4)
+  sqlite3
   tzinfo-data
 
 RUBY VERSION
