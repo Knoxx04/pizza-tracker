@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction
+This project aims to create a simple API for managing restaurants and their pizzas. The API should allow clients to add and remove restaurants, add and remove pizzas from restaurants, and view information about restaurants and their pizzas.
 
-Things you may want to cover:
 
-* Ruby version
+## Ruby version
+This application runs on ruby version 2.7.2
 
-* System dependencies
+## Database
+- The project uses SQlite3
 
-* Configuration
+## Deployment
+- This challenge has been deployed on render. click on the link to view the application
 
-* Database creation
+        pza.onrender.com
 
-* Database initialization
+## Routes
+- GET /restaurants
 
-* How to run the test suite
+- GET /restaurants/:id
 
-* Services (job queues, cache servers, search engines, etc.)
+- DELETE /restaurants/:id
 
-* Deployment instructions
+- GET /pizzas
 
-* ...
+- POST /restaurant_pizzas
+
+## Testing the Application
+- To test the application click on the link and test the endpoints above
+
+            pza.onrender.com
+
+
